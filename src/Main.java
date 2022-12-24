@@ -40,7 +40,7 @@ public class Main {
         devRafael.progredir();
         System.out.println("-");
         System.out.println("Conteudos Incristos Rafael: " + devRafael.getConteudoIncritos());
-        System.out.println("Conteudos Concluidos Rafael: " + devRafael.getconteudosconcluidos());
+        System.out.println("Conteudos Concluidos Rafael: " + devRafael.getConteudosConcluidos());
         System.out.println("XP" + devRafael.calcularTotalXp());
 
         System.out.println("-----------");
@@ -53,7 +53,7 @@ public class Main {
         devEllen.progredir();
         System.out.println("-");
         System.out.println("COnteudos Incristos Ellen: " + devEllen.getConteudoIncritos());
-        System.out.println("COnteudos Concluidos Ellen: " + devEllen.getconteudosconcluidos());
+        System.out.println("COnteudos Concluidos Ellen: " + devEllen.getConteudosConcluidos());
         System.out.println("XP" + devEllen.calcularTotalXp());
 
     }

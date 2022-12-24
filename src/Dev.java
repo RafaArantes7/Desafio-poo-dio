@@ -47,12 +47,12 @@ public class Dev {
         this.conteudosIncritos = conteudoIncritos;
     }
 
-    public Set<Conteudo> getConteudoConcluis() {
+    public Set<Conteudo> getConteudosConcluidos() {
         return conteudosConcluidos;
     }
 
-    public void setConteudoConcluis(Set<Conteudo> conteudoConcluis) {
-        this.conteudosConcluidos = conteudoConcluis;
+    public void setConteudosConcluidos(Set<Conteudo> conteudosConcluidos) {
+        this.conteudosConcluidos = conteudosConcluidos;
     }
 
     @Override
@@ -92,7 +92,7 @@ public class Dev {
         return true;
     }
 
-    public String getconteudosconcluidos() {
+    public String getconteudosoncluidos() {
         return null;
     }
 
